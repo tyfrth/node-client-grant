@@ -10,7 +10,7 @@ const management = new ManagementClient({
 
 const clientData = {
   name: 'node-test-app',
-  app_type: 'non_interactive',
+  app_type: 'non_interactive', //must be non_interactive (m2m)
   // include other client options here as necessary
 };
 
